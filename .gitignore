@@ -1,0 +1,21 @@
+# Raw and processed data
+data/raw/
+
+
+
+# Ignore processed data files, but keep the folder
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Power BI temporary files
+*.tmp
